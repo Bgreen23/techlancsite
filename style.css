@@ -1,4 +1,9 @@
-body {
-  background-color: red; }
+/*fonts*/
+.lato {
+  font-family: 'Lato', sans-serif;
+  display: flex; }
+
+.droid {
+  font-family: 'Droid Serif', serif; }
 
 /*# sourceMappingURL=style.css.map */
