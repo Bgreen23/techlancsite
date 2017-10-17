@@ -1,4 +1,74 @@
+/* May not need this Media Query but keeping just in case
+@media only screen and (min-width:320px) and (max-width:760px) {}
+*/
+.header {
+  background-color: #ffab00;
+  width: 100%; }
+
+.title {
+  display: inline-flex; }
+
+.links {
+  display: inline-flex; }
+
+.lato-reg {
+  font-family: 'Lato', sans-serif;
+  color: #064159;
+  font-size: 21px; }
+
+.lato-black {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #064159;
+  font-size: 21px; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 /*fonts*/
+body {
+  width: 100%; }
+
 .lato {
   font-family: 'Lato', sans-serif;
   display: flex; }
