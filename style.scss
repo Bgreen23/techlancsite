@@ -1,6 +1,11 @@
-@import 'community';
-@import 'calendar';
+@import "community";
+@import "calendar";
+@import "header";
+@import "reset";
 /*fonts*/
+body {
+  width: 100%;
+}
 .lato {
   font-family: 'Lato', sans-serif;
   display: flex;
