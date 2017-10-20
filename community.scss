@@ -1,0 +1,37 @@
+.button-comm {
+  background-color: $orange-font;
+  color: white;
+  font-family: $droid;
+  letter-spacing: 1px;
+  width: 177px;
+  height: 30px;
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 5px;
+}
+.button-link {
+  @extend .link;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  display:inline-block;
+}
+.link-comm {
+  @extend  .link;
+}
+.droid-comm {
+  @extend .droid-h2;
+  font-size: 20px;
+  line-height: 1.75;
+}
+.core {
+  background-color: white;
+}
+.code {
+  font-family: $droid;
+  color: $navy-font;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
