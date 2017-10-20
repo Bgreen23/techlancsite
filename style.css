@@ -1,3 +1,69 @@
+/*varibles used throught project*/
+/* Any changes to the Home Page go here */
+body {
+  background-color: #ffc400; }
+
+.droid-h2, .rsvp {
+  font-family: "Droid Serif", serif;
+  color: #4e1c07;
+  font-size: 20px;
+  padding: 30px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-top: 40px; }
+
+.lato-h2 {
+  font-family: "Lato", sans-serif;
+  color: #4e1c07;
+  font-size: 30px;
+  padding: 20px;
+  padding-top: 0px; }
+
+.line {
+  background-color: #ee3e28;
+  width: 90%;
+  height: 1px;
+  margin: 20px auto; }
+
+.p-home, .location {
+  font-family: "Droid Serif", serif;
+  color: #021d2c;
+  padding: 30px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 15px;
+  padding-top: 15px; }
+
+.h3-orange {
+  font-family: "Lato", sans-serif;
+  color: #eb503c;
+  padding: 20px;
+  margin: 10px auto;
+  padding-bottom: 0; }
+
+.h3-date {
+  font-family: "Lato", sans-serif;
+  color: #021d2c;
+  padding-left: 20px; }
+
+.location {
+  padding-left: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 15px;
+  padding-top: 15px; }
+
+.rsvp {
+  font-size: 13px;
+  padding-top: 0;
+  padding-left: 20px; }
+
+.link {
+  text-decoration: none;
+  color: #4e1c07;
+  font-family: "Lato", sans-serif; }
+
 /* May not need this Media Query but keeping just in case
 @media only screen and (min-width:320px) and (max-width:760px) {}
 */
@@ -65,15 +131,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*fonts*/
-body {
-  width: 100%; }
+/* Any changes to the hero go here */
+.hero {
+  background-image: url("Home Page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
-.lato {
-  font-family: 'Lato', sans-serif;
-  display: flex; }
+.hero-text {
+  font-family: "Droid Serif", serif;
+  color: #efe9d8;
+  font-size: 36px;
+  width: 80%;
+  text-align: left;
+  line-height: 40px; }
 
-.droid {
-  font-family: 'Droid Serif', serif; }
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  color: #6f8998;
+  line-height: 1.75;
+  letter-spacing: 1px; }
 
 /*# sourceMappingURL=style.css.map */
