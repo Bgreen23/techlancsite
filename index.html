@@ -1,11 +1,12 @@
 <!--Brandon Green-->
-
+<!--Note to self: This is not finished aka mobile only. Make this fully responsive. Maybe even add in some JScript-->
+<!-- Also: Don't attempt to move files during a project. -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>TECHLANCASTER</title>
-  <link rel="stylesheet" href="style/style.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lato:400,900" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial scale=1.0">
 </head>
@@ -13,24 +14,31 @@
   <section class="header">
     <header class="title">
       <div class="lato-reg">
-      TECH
-    </div>
-    <div class="lato-black">
-      LANCASTER
-    </div>
-    <div class="drop">
-          <div class="content">
-          <a href="index.html">Home</a>
-        </div>
-        <div class="content">
-          <a href="calendar.html">Calendar</a>
-        </div>
-        <div class="content">
-          <a href="community.html">Community</a>
-        </div>
+        TECH
       </div>
-  </header>
-</section>
+      <div class="lato-black">
+        LANCASTER
+      </div>
+      <!-- nav bar here -->
+      <nav class="ham">
+        <div>
+          <div class="bun">
+            <div class="sesame">
+            </div>
+            <div class="sesame">
+            </div>
+            <div class="sesame">
+            </div>
+          </div>
+          <div class="drop">
+            <a class="meat" href="index.html">Home</a>
+            <a class="meat" href="calendar.html">Calendar</a>
+            <a class="meat" href="community.html">Community</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
   <section>
     <div class="hero">
       <h1 class="hero-text">Supporting the tech community in Lancaster.</h1>
@@ -53,10 +61,9 @@
       <nav class="rsvp">
         <a class="link" href="http://www.pubstandards.us/" target="_blank">Visit Our Site &rsaquo;&rsaquo;</a>
       </nav>
-
     </aside>
   </section>
-
+  <!-- refer to footer.scss -->
   <footer class="footer">
     <p> &#64;techlancaster<p>
       <p>&copy;2017 TechLancaster</p>

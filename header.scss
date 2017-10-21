@@ -1,10 +1,53 @@
+// Brandon Green
 /* May not need this Media Query but keeping just in case
 @media only screen and (min-width:320px) and (max-width:760px) {}
 */
-
+.ham {
+  height: auto;
+  width: auto;
+  position: relative;
+  display: inline-block;
+}
+.bun {
+  width: 35px;
+  height: 35px;
+  background-color: $header-color;
+  padding-left: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.sesame {
+  width: 20px;
+  height: 3px;
+  background-color: $blue-font;
+  margin: 5px;
+}
+.drop {
+  display: none;
+  position: absolute;
+  right: 0;
+  padding: 8px;
+  background-color: $yellow-back;
+  width: 200px;
+  text-align: center;
+  border: 1px solid $blue-font;
+}
+.meat {
+  font-size: 15px;
+  font-family: $lato;
+  color: $blue-font;
+  display: block;
+  text-decoration: none;
+  margin: 10px 0;
+  text-align: center;
+}
+.ham:hover .drop {
+  display: block;
+}
 .header {
-  background-color: #ffab00;
+  background-color: $header-color;
   width: 100%;
+  padding-top: 15px;
 }
 .title {
   display: inline-flex;
@@ -14,12 +57,12 @@
 }
 .lato-reg {
   font-family: 'Lato', sans-serif;
-  color: #064159;
+  color: $blue-font;
   font-size: 21px;
 }
 .lato-black {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  color: #064159;
+  color: $blue-font;
   font-size: 21px;
 }

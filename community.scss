@@ -1,3 +1,4 @@
+// Brandon Green
 .button-comm {
   background-color: $orange-font;
   color: white;
@@ -27,6 +28,7 @@
 }
 .core {
   background-color: white;
+  line-height: 1.5;
 }
 .code {
   font-family: $droid;
@@ -34,4 +36,21 @@
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
+  padding: 10px;
+}
+.code-p {
+  font-family: $droid;
+  color: $navy-font;
+  font-size: 18px;
+  margin: 10px;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+.code-li {
+  list-style: initial;
+  counter-reset: none;
+}
+.tan {
+  background-color: $tan-back;
+  padding-bottom: 15px;
 }
