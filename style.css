@@ -114,6 +114,26 @@ body {
   background-color: #F5DEB3;
   padding-bottom: 15px; }
 
+.inv-back {
+  background-color: #eb503c; }
+
+.involved {
+  font-family: "Droid Serif", serif;
+  color: #efe9d8;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.5; }
+
+.involved-p {
+  font-family: "Droid Serif", serif;
+  color: #efe9d8;
+  padding: 20px;
+  line-height: 1.5; }
+
+.want-back {
+  background-color: #a13729; }
+
 /* May not need this Media Query but keeping just in case
 @media only screen and (min-width:320px) and (max-width:760px) {}
 */
